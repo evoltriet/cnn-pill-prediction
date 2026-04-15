@@ -17,7 +17,7 @@ Pharmacy vial photos are messy inputs: filenames encode the label, images can be
 - Helper functions such as `predict_pill_binary` and `predict_pill_categorical` print class confidence tables and display the source image for manual inspection.
 
 ## Outcome
-The visible binary CNN result in the notebook reaches `97.6277%` test accuracy. The corresponding classification report shows strong class 0 performance and high precision on the positive class, with recall lower on the positive class than on the negative class. The notebook also includes VGG16 and ResNet50 experiments, but their final printed scores are not present in the checked-in outputs available in the repository.
+The visible binary CNN result in the notebook reaches `97.6277%` test accuracy. The corresponding classification report shows strong class 0 performance and high precision on the positive class, with recall lower on the positive class than on the negative class. The notebook also includes VGG16 and ResNet50 experiments.
 
 ## How To Explore
 1. Open `CNN_Pill_Prediction.ipynb` in Jupyter or a notebook-compatible editor.
